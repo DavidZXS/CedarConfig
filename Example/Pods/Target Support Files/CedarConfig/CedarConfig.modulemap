@@ -1,0 +1,6 @@
+framework module CedarConfig {
+  umbrella header "CedarConfig-umbrella.h"
+
+  export *
+  module * { export * }
+}

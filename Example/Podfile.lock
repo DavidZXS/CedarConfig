@@ -1,0 +1,16 @@
+PODS:
+  - CedarConfig (0.1.0)
+
+DEPENDENCIES:
+  - CedarConfig (from `../`)
+
+EXTERNAL SOURCES:
+  CedarConfig:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CedarConfig: 1691dd0ea9b4ee9350e1555a5ceb1916bb12574e
+
+PODFILE CHECKSUM: bfc5c397dbe3c407ab621ec104f77d2916c33309
+
+COCOAPODS: 1.15.2

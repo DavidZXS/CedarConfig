@@ -1,0 +1,22 @@
+{
+  "name": "CedarConfig",
+  "version": "0.1.0",
+  "summary": "A short description of CedarConfig.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zxs_david@163.com/CedarConfig",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zxs_david@163.com": "zxs_david@163.com"
+  },
+  "source": {
+    "git": "https://github.com/zxs_david@163.com/CedarConfig.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CedarConfig/Classes/**/*"
+}
