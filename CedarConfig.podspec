@@ -29,7 +29,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'CedarConfig/Classes/CZClass/**/*'
+  s.source_files = 'CedarConfig/Classes/CZClass/**/*.{h,m}'
   s.requires_arc = true
+  s.preserve_paths = "Classes/**/*"
   
 end
