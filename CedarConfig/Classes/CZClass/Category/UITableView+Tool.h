@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-//#import "MJRefresh.h"
-
 @interface UITableView (Tool)
 
 - (void)cc_endReFresh:(NSInteger)count;
