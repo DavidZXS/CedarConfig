@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CedarConfig'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Cedar组件库.'
 
 # This description is used to generate tags and improve search results.
@@ -26,27 +26,10 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zxs_david@163.com' => 'zxs_david@163.com' }
   s.source           = { :git => 'https://github.com/DavidZXS/CedarConfig.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'CedarConfig/Classes/**/*'
   s.requires_arc = true
-  s.dependency 'AFNetworking', '~> 4.0.1'
-  s.dependency 'Masonry'
-  s.dependency 'SDWebImage'
-  s.dependency 'MJRefresh'
-  s.dependency 'SVProgressHUD'
-  s.dependency 'BRPickerView'
-  s.dependency 'TZImagePickerController'
-
-
-
-  s.resource_bundles = {
-    'CedarConfig' => ['CedarConfig/Assets/**/*.colorset']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   
 end
