@@ -11,13 +11,13 @@
 @implementation UITableView (Tool)
 
 - (void)cc_endReFresh:(NSInteger)count{
-    [self.mj_header endRefreshing];
-    if (count == 0) {
-        [self.mj_footer endRefreshingWithNoMoreData];
-    }else{
-        [self.mj_footer endRefreshing];
-    }
-    [self reloadData];
+//    [self.mj_header endRefreshing];
+//    if (count == 0) {
+//        [self.mj_footer endRefreshingWithNoMoreData];
+//    }else{
+//        [self.mj_footer endRefreshing];
+//    }
+//    [self reloadData];
 }
 
 - (void)isGroup{

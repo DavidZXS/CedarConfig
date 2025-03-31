@@ -31,8 +31,8 @@
     };
     return a;
 }
-- (__kindof UIView* (^)(void(^)(CALayer **)))hrb_layer{
-    __kindof UIView*(^a)(void(^)(CALayer **)) = ^(void(^b)(CALayer **)){
+- (__kindof UIView* (^)(void(^)(CALayer *)))hrb_layer{
+    __kindof UIView*(^a)(void(^)(CALayer *)) = ^(void(^b)(CALayer *)){
         CALayer *layer = self.layer;
         b(&layer);
         return self;
