@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CedarConfig'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = 'Cedar组件库.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/DavidZXS'
+  s.homepage         = 'https://github.com/DavidZXS/CedarConfig'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zxs_david@163.com' => 'zxs_david@163.com' }
@@ -31,12 +31,22 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'CedarConfig/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CedarConfig' => ['CedarConfig/Assets/*.png']
-  # }
+  s.requires_arc = true
+  s.dependency 'AFNetworking', '~> 4.0.1'
+  s.dependency 'Masonry'
+  s.dependency 'SDWebImage'
+  s.dependency 'MJRefresh'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'BRPickerView'
+  s.dependency 'TZImagePickerController'
+
+
+
+  s.resource_bundles = {
+    'CedarConfig' => ['CedarConfig/Assets/**/*.colorset']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
 end
